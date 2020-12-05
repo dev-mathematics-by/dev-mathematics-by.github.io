@@ -1,0 +1,15 @@
+body {
+font-family: Tahoma, Arial, Helvetica, sans-serif;
+text-decoration: none;
+color: #000000;
+}
+
+p {
+font-family: Tahoma, Arial, Helvetica, sans-serif;
+font-size: 12px;
+text-decoration: none;
+color: #000000;
+}
+
+.blink a {color: #cccccc; text-decoration: underline; font-size: 10px;}
+.blink a:hover {color: #ffffff; text-decoration: none; font-size: 10px;}
