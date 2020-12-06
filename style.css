@@ -1,15 +1,97 @@
 body {
-font-family: Tahoma, Arial, Helvetica, sans-serif;
-text-decoration: none;
-color: #000000;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #000000;
+	background-color: #ffffff;
+	text-decoration-color: #000000;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+h2.header, h3.header{
+	margin-left:20px;
+	color: #ffffff;
+}
+
+td{
+	padding: 0%;
+}
+
+td.logo{
+	width: 250px;
+	height: 143px;
+}
+
+td.topfon{
+	height: 30px;
+	vertical-align: bottom;
+}
+td.fon{
+	width: 250px;
 }
 
 p {
-font-family: Tahoma, Arial, Helvetica, sans-serif;
-font-size: 12px;
-text-decoration: none;
-color: #000000;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #000000;
 }
 
-.blink a {color: #cccccc; text-decoration: underline; font-size: 10px;}
-.blink a:hover {color: #ffffff; text-decoration: none; font-size: 10px;}
+p.main, h3.main{
+	font-size: medium;
+	max-width: 1200px;
+	text-align: justify;
+	margin:10px;
+}
+
+p.image {
+	max-width: 1200px;
+	max-width: 100%;
+	text-align: justify;
+	margin:10px;
+}
+
+p.footer{
+	margin-top: 20px;
+	text-align: left;
+}
+
+table.main{
+	width: 100%;
+	background-color: #eeeeee ;
+}
+
+table.footer{
+	width: 100%;
+}
+
+
+
+td.footer{
+	padding: 0%;
+	background-color: #000000;
+	vertical-align: top;
+}
+
+a.blink{
+	color: dimgray;
+	text-decoration: underline;
+}
+a:hover{
+	text-decoration: none;
+	background-color: white;
+}
+
+.blink a {
+	 color: #cccccc;
+	 text-decoration: underline;
+	 font-size: 10px;
+ }
+.blink a:hover {
+	color: #ffffff;
+	background-color: inherit;
+	text-decoration: none;
+	font-size: 10px;
+}
