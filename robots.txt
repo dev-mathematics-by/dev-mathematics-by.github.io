@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Host: mathematics.by
+sitemap: http://mathematics.by/sitemap.xml
