@@ -98,10 +98,10 @@ Menu5=new Array("Обо мне","about.html","",0,20,240);
 Menu6=new Array("Рабочий кабинет","cabinet.html","",0,20,240);
 
 
-Menu7=new Array("Контактная информация","contact.html","",0,20,240);
+Menu7=new Array("Контактная информация","mestopolozhenie.html","",0,20,240);
 
 
-Menu8=new Array("Местоположение","map.html","",0,20,240);
+Menu8=new Array("Местоположение","mestopolozhenie.html","",0,20,240);
 
 
 Menu9=new Array("Приглашение к сотрудничеству","cooperation.html","",0,20,240);
