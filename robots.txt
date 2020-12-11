@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
-Host: mathematics.by
-sitemap: http://mathematics.by/sitemap.xml
+Disallow: /texraboti.html
+Disallow: /map.html
+Host: https://mathematics.by
+Sitemap: https://mathematics.by/sitemap.xml
