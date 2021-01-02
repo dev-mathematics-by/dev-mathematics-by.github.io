@@ -18,43 +18,43 @@
 			p.imagedDigit {
 				background-size:96px
 			}
-			p.imagedAdvance 
-			{
+			p.imagedAdvance {
 				background-size:96px
 			}
 			@media screen and (max-width:600px) {
-				.imaged 
-			{
-				padding-left:64px
+				.imaged {
+				
+					padding-left:64px
+				}
+				p.imagedDigit {
+					padding-top:12px;
+					background-size:64px;
+					padding-bottom:12px
+				}
+				p.imagedAdvance {
+					padding-top:12px;
+					background-size:64px;
+					padding-bottom:12px
+				}
 			}
-			p.imagedDigit {
-				padding-top:12px;
-				background-size:64px;
-				padding-bottom:12px
+			@media screen and (min-width:1200px) {
+				.tableContainer {
+					display:table;table-layout:fixed;width:100%
+				}
+				.tableRow {
+					display:table-row
+				}
+				.tableCell {
+					display:table-cell;width:2px
+				}
+				p.inTableCell {
+					font-size:small
+				}
+				p.imagedAdvance {
+					padding-top:0px;
+					padding-bottom:0px
+				}
 			}
-			p.imagedAdvance {
-				padding-top:12px;
-				background-size:64px;
-				padding-bottom:12px
-			}}
-			@media screen and (min-width:1200px)
-			{
-			.tableContainer {
-				display:table;table-layout:fixed;width:100%
-			}
-			.tableRow {
-				display:table-row
-			}
-			.tableCell {
-				display:table-cell;width:2px
-			}
-			p.inTableCell {
-				font-size:small
-			}
-			p.imagedAdvance {
-				padding-top:0px;
-				padding-bottom:0px
-			}}
 			#one {
 				background-image:url(images/digits/d1.png)
 			}
@@ -97,7 +97,7 @@
 			#a9_location {
 				background-image:url(images/advantages/a9_location.png)
 			}
-			</style>
+		</style>
 			<!-- Global site tag (gtag.js) - Google Analytics -->
 			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114776658-1">
 			</script>
