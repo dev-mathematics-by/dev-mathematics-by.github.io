@@ -7,6 +7,7 @@ body{font-family:Tahoma, Arial, Helvetica, sans-serif;text-decoration:none;color
 .view img{
 	width: 35%;
 }
+.rt>p{text-align: left;}
 .ku{width:100%;}
 .ku img{width:100%;}
 .foncall a{text-decoration:none;}
@@ -524,8 +525,8 @@ div.main{margin-right:0px;}
 .tr9{font-size:8px;}
 .tr3{font-size:7px;}
 .tr2{font-size:7px;}
-.tr1{font-size:8px;div.right1 p{}
-font-size:25px;}
+.tr1{font-size:8px;}
+div.right1 p{font-size:25px;}
 div.right1 img{width:200px;}
 .glf{display:none;}
 .glf9{display:none;}
