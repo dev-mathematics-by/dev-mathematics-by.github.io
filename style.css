@@ -453,6 +453,8 @@ div.main{margin-right:0px;}
 .wroe{flex-direction:column;}
 .pp{margin-top:10px;}
 .no{display:block;}
+.no{width:100%;}
+.no img{width:100%;}
 .tyu{padding-left:2%;}
 .text1 img{width:5%;}
 .kark img{width:100%;}
