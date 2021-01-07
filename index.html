@@ -12,6 +12,375 @@
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<link REL="SHORTCUT ICON" HREF="favicon.ico">
 		<style>
+			.ot2 a {
+				color: rgb(255, 90, 90);
+				font-family: akrobat-bold;
+				font-size: 25px;
+			}
+
+			.ck img {
+				width: 49%;
+			}
+		
+			.b1 {
+				background-image: url(images/digits/d1.png);
+				background-repeat: no-repeat;
+				background-size: 96px;
+				padding-left: 90px;
+				padding-bottom: 20px;
+			}
+
+			.bl1 img {
+				width:45%;
+				text-align:center;
+			}
+
+			.bl2 {
+				font-family:akrobat-bold;
+				width:80%;
+				margin-left:13%;
+				text-align:center;
+				margin-bottom:20px;
+				background-image:url(./images/advantages/bck.png);
+				font-size:19px;
+				color:white;
+				background-size:90%;
+				background-position:center;
+			}
+
+			.bl3 {
+				width:80%;
+				font-family:akrobat-regular;
+				font-size:19px;
+				color:rgb(39, 43, 47);
+				margin-left:13%;
+			}
+
+			.s1g {
+				font-family:akrobat-bold;
+				color:rgb(255, 90, 90);
+				font-size:22px;
+			}
+			.s1gt {
+				font-size:20px;
+				font-family:akrobat-regular;
+				color:rgb(39, 43, 47);
+			}
+			.prem img {
+				float:left;
+				width:33%;
+				margin-top:6px;
+			}
+			.s1 {
+				float:left;
+				width:33%;
+				display:none;
+			}
+			.op {
+				float:left;
+				width:66%;
+				margin-top:6px;
+				margin-bottom:6px;
+			}
+
+			.str2 img {
+				margin-top:-84px;
+				float:left;
+				width:33%;
+			}
+			.str1 img {
+				margin-top:-220px;
+				float:left;
+				width:33%;
+			}
+
+/*вопросик по b4,b5*/
+			.b4 {
+				background-image:url(images/digits/d4.png);
+				background-repeat:no-repeat;
+				background-size:96px;
+				background-image:url(images/digits/d1.png);background-repeat:no-repeat;background-size:96px;padding-left:90px;padding-bottom:20px;
+			}
+			.b5 {
+				background-image:url(images/digits/d5.png);
+				background-repeat:no-repeat;
+				background-size:96px;
+				background-image:url(images/digits/d1.png);background-repeat:no-repeat;background-size:96px;padding-left:90px;padding-bottom:20px;
+			}
+
+			.tt1 {
+				font-family:akrobat-bold;
+				font-size:25px;
+			}
+			.tt2 {
+				font-family:akrobat-regular;
+				font-size:23px;
+				color:rgb(39, 43, 47);
+			}
+
+			.b3 {
+				background-image:url(images/digits/d3.png);
+				background-repeat:no-repeat;
+				background-size:96px;
+			}
+
+			.title {
+				text-align:center;
+				font-size:35px;
+				font-family:akrobat-bold;
+				color:rgb(255, 90, 90);
+			}
+
+
+			.title {
+				overflow:hidden;
+				font-family:akrobat-bold;
+				font-size:35px;
+				text-align:center;
+				color:rgb(255, 90, 90);
+				margin-right:36px;
+				margin-left:90px;
+			}
+
+			.title:before, .title:after {
+				content:"";
+				display:inline-block;
+				vertical-align:middle;
+				width:100%;
+				height:2px;
+				background-color:rgb(255, 90, 90);
+				position:relative;
+			}
+
+			.title:before{margin-left:-107%;
+				left:-14px;
+			}
+
+			.title:after{margin-right:-100%;
+				right:-14px;
+			}
+		
+			.h11 {
+				font-size: 26px;
+				font-family: akrobat-black;
+				text-align: center;
+				color: rgb(255, 90, 90);
+			}
+		
+			.op1 {
+				font-family: akrobat-regular;
+				text-align: center;
+				color: rgb(39, 43, 47);
+				font-size: 25px;
+				line-height: 1.1em;
+			}
+
+			.zgt {
+				font-family:akrobat-regular;
+				font-size:23px;
+				color:rgb(39, 43, 47);
+			}
+			.zg {
+				font-family:akrobat-bold;
+				color:rgb(255, 90, 90);
+				font-size:25px;
+			}
+
+			@media screen and (min-width:1800px){ 
+				.h11 {
+				font-size: 42px;
+				}
+				.op1 {
+					font-size: 36px;
+				}
+				.zgt {
+					font-size:28px;
+				}
+				.tt1 {
+					font-size:28px;
+				}
+				.tt2 {
+					font-size:28px;
+				}
+				.bl2 {
+					font-size:27px;
+				}
+				.bl3 {
+					font-size:27px;
+				}
+				
+				.title {
+					font-size:34px;
+				}
+				
+				.roztx {
+					color: rgb(255, 90, 90);
+				}
+				
+				.strelki {
+					color: rgb(140, 140, 140);
+					font-size: 16px;
+				}
+				
+				div.right1 {
+					text-align: center;
+					margin-top: 20px;
+					display: none;
+				}
+				
+				div.right1 p {
+					font-size: 20px;
+					color: rgb(39, 43, 47);
+				}
+			}
+
+			@media screen and (max-width:1280px){ 
+				.ck img {
+					width: 49%;
+				}
+
+				.str1 img {
+					margin-top:-138px;
+				}
+
+				.title {
+					overflow:hidden;
+					font-family:akrobat-bold;
+					font-size:35px;
+					text-align:center;
+					color:rgb(255, 90, 90);
+					margin-right:34px;
+					margin-left:90px;
+				}
+
+				.s1gt {
+					font-size:17px;
+				}
+			}
+
+			@media screen and (max-width:1024px){ 
+				.ck img {
+					width: 49%;
+				}
+
+				.s1g {
+					font-size:18px;
+				}
+
+				.s1gt {
+					font-size:17px;
+				}
+
+			.title {
+				overflow:hidden;
+				font-family:akrobat-bold;
+				font-size:35px;
+				text-align:center;
+				color:rgb(255, 90, 90);
+				margin-right:34px;
+				margin-left:88px;
+			}
+
+			.ph1 img {
+				width:40px;
+			}
+
+			}
+
+			@media screen and (max-width:800px){
+				div.right1 p {
+					font-size: 25px;
+				}
+
+				.str1 {
+					display:none;
+				}
+
+				.str2 {
+					display:none;
+				}
+
+				.ph1 {
+					display:none;
+				}
+		
+				div.right1 img {
+					width: 200px;
+				}
+
+				.prem {
+					width:50%;
+				}
+
+				.op {
+					width:82%;
+				}
+
+				.s1 {
+					display:block;
+				}
+
+				.s1g {
+					font-size:23px;
+				}
+
+				.s1gt {
+					font-size:23px;
+				}
+
+				div.s1 {
+					float:none;
+					width:100%;
+				}
+
+				.zgt {
+					font-size:22px;
+				}
+
+				.ck img {
+					width: 100%;
+				}
+
+				div.right1 {
+					margin-left: 0;
+					text-align: center;
+					float: none;
+					display: block;
+					width: 100%;
+				}
+		
+			.ck {
+				text-align: center;
+			}
+			.b3, .b4, .b5 {
+				background-size:47px;
+				padding-left:38px;
+			}
+
+			.title {
+				overflow:hidden;
+				font-family:akrobat-bold;
+				font-size:43px;
+				text-align:center;
+				color:rgb(255, 90, 90);
+				margin-left:10px;
+				margin-right:15px;
+			}
+
+			.title:before {
+				margin-left:-96%;
+			}
+
+			.title:after {
+				margin-right:-98%;
+				right:-5px;
+			}
+
+		}
+			
+		
+		</style>
+		<style>
 			p.imaged {
 				background-repeat:no-repeat
 			}
