@@ -1,6 +1,7 @@
 User-agent: *
-Allow: /
-Disallow: /texraboti.html
-Disallow: /map.html
-Host: https://mathematics.by
-Sitemap: https://mathematics.by/sitemap.xml
+Disallow: / # for test site only
+#Allow: /
+#Disallow: /texraboti.html
+#Disallow: /map.html
+#Host: https://mathematics.by
+#Sitemap: https://mathematics.by/sitemap.xml
