@@ -17,6 +17,23 @@
 				border-color: rgb(255, 90, 90); 
 				border-width: 2px;
 			}
+
+			.menu_desktop {
+				display:block;
+			}
+
+			.menu_mobile {
+				display:none;
+			}
+
+			@media screen and (max-width:800px){
+				.menu_desktop {
+					display:none;
+				}
+				.menu_mobile {
+					display:block;
+				}
+			}
 		</style>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114776658-1">
@@ -50,35 +67,40 @@
 			</div>
 		</div>
 		<div class="left">
-			<div class="menu_vmel">
+			<div class="menu_desktop">
 				<div class="menu">
 					<a class="blink" href="index.html">Главная страница</a><br>
 					<a class="blink" href="about.html">Информация о репетиторе</a><br>
 					<a class="blink" href="otzivi.html">Отзывы и комментарии</a><br>
 					<a class="blink" href="mestopolozhenie.html">Местоположение и контакты</a><br>
-					<a class="blink" href="uslovia_i_ceny2.html">Подготовка к ЦТ по математике</a><br>
-					<a class="blink" href="podgotovka_k_ekzamenu.html">Высшая математика для студентов</a><br>
-					<a class="blink" href="shkolnikam.html">Математика для школьников</a><br>
-					<a class="blink" href="texraboti.html">Математика для взрослых</a><br>
-					<a class="blink" href="pomosch_reshenii_zadach.html">Онлайн репетитор по математике</a><br>
-					<a class="blink" href="metodika_prepodavania.html">Подготовка в лицей, колледж</a><br>
-					<a class="blink" href="texraboti.html">Репетитор по русскому языку</a><br>
-				</div>
-			</div>
-			<div class="menu_vbig">
-				<div class="menu">
-					<a class="blink" href="index.html">Главная страница</a><br>
-					<a class="blink" href="about.html">Информация о репетиторе</a><br>
-					<a class="blink" href="otzivi.html">Отзывы и комментарии</a><br>
-					<a class="blink" href="mestopolozhenie.html">Местоположение и контакты</a><br>
-					<a class="blink" href="uslovia_i_ceny2.html">Подготовка к ЦТ</a><br>
+					<a class="blink" href="uslovia_i_ceny2.html">Подготовка к ЦТ и ЦЭ</a><br>
 					<a class="blink" href="podgotovka_k_ekzamenu.html">Высшая математика</a><br>
 					<a class="blink" href="shkolnikam.html">Математика для школьников</a><br>
-					<a class="blink" href="texraboti.html">Математика для взрослых</a><br>
+					<a class="blink" href="mathematics-for-professionals.html">Математика для взрослых</a><br>
 					<a class="blink" href="pomosch_reshenii_zadach.html">Онлайн репетитор</a><br>
-					<a class="blink" href="metodika_prepodavania.html">Подготовка в лицей, колледж</a><br>
-					<a class="blink" href="texraboti.html">Репетитор по русскому языку</a><br>
+					<a class="blink" href="metodika_prepodavania.html">Подготовка в лицеи</a><br>
+					<a class="blink" href="russian-language-tutor.html">Репетитор по русскому языку</a><br>
 				</div>
+			</div>
+			<div class="menu_mobile">
+				<details>
+					<summary style="font-size:xx-large; color:white;background-color: dimgray;">
+						Меню сайта
+					</summary>
+					<div class="menu">
+						<a class="blink" href="index.html">Главная страница</a><br>
+						<a class="blink" href="about.html">Информация о репетиторе</a><br>
+						<a class="blink" href="otzivi.html">Отзывы и комментарии</a><br>
+						<a class="blink" href="mestopolozhenie.html">Местоположение и контакты</a><br>
+						<a class="blink" href="uslovia_i_ceny2.html">Подготовка к ЦТ и ЦЭ</a><br>
+						<a class="blink" href="podgotovka_k_ekzamenu.html">Высшая математика</a><br>
+						<a class="blink" href="shkolnikam.html">Математика для школьников</a><br>
+						<a class="blink" href="mathematics-for-professionals.html">Математика для взрослых</a><br>
+						<a class="blink" href="pomosch_reshenii_zadach.html">Онлайн репетитор</a><br>
+						<a class="blink" href="metodika_prepodavania.html">Подготовка в лицеи</a><br>
+						<a class="blink" href="russian-language-tutor.html">Репетитор по русскому языку</a><br>
+					</div>
+				</details>
 			</div>
 			<div class="fon">
 				<div class="foncall">
