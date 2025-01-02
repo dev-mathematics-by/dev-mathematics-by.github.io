@@ -11,6 +11,7 @@ strong {
 /* вместо .roztx */
 em {
     color:rgb(255, 90, 90);
+    font-style: normal; /* вместо italic, дефолтного для em */
 }
 .view a{color:rgb(39, 43, 47);text-decoration:none;}
 .view{text-align:center;font-family:akrobat-regular;color:rgb(39, 43, 47);font-size:32px;}
