@@ -21,7 +21,10 @@ em {
 .rt{text-align: left;}
 .ku{width:100%;}
 .ku img{width:100%;}
-.foncall a{text-decoration:none;}
+.foncall a{
+    text-decoration:none;
+    color: #3d434d;
+}
 .wroe{display:flex;flex-direction:row;align-items:center;justify-content:center;}
 .bli{flex:1;}
 .pp img{width:100%;}
