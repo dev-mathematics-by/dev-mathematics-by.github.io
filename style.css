@@ -2,6 +2,17 @@
 @font-face{font-family:akrobat-black;src:url(./fonts/Akrobat-Black.otf);}
 @font-face{font-family:akrobat-regular;src:url(./fonts/Akrobat-Regular.otf);}
 body{font-family:Tahoma, Arial, Helvetica, sans-serif;text-decoration:none;color:#000000;background-color:#ffffff;text-decoration-color:#000000;margin-top:0%;margin-bottom:0%;margin-left:0%;margin-right:0%;overflow-x:hidden;}
+/* вместо .zg */
+strong {
+    font-family:akrobat-bold;
+    color:rgb(255, 90, 90);
+    font-size:25px;
+}
+/* вместо .roztx */
+em {
+    color:rgb(255, 90, 90);
+    font-style: normal; /* вместо italic, дефолтного для em */
+}
 .view a{color:rgb(39, 43, 47);text-decoration:none;}
 .view{text-align:center;font-family:akrobat-regular;color:rgb(39, 43, 47);font-size:32px;}
 .view img{
@@ -10,7 +21,10 @@ body{font-family:Tahoma, Arial, Helvetica, sans-serif;text-decoration:none;color
 .rt{text-align: left;}
 .ku{width:100%;}
 .ku img{width:100%;}
-.foncall a{text-decoration:none;}
+.foncall a{
+    text-decoration:none;
+    color: #3d434d;
+}
 .wroe{display:flex;flex-direction:row;align-items:center;justify-content:center;}
 .bli{flex:1;}
 .pp img{width:100%;}
@@ -138,7 +152,10 @@ body{font-family:Tahoma, Arial, Helvetica, sans-serif;text-decoration:none;color
 .ot4{font-size:16px;font-family:akrobat-regular;color:rgb(39, 43, 47);}
 .ot4 a{text-decoration:none;}
 .ot3{margin-bottom:5px;}
-.ot3 em{font-size:12px;font-family:akrobat-regular;color:rgb(39, 43, 47);}
+.former-em {
+    font-style: italic;
+}
+.ot3 .former-em{font-size:12px;font-family:akrobat-regular;color:rgb(39, 43, 47);}
 .ot2 a{color:rgb(255, 90, 90);font-family:akrobat-bold;font-size:25px;}
 .ot1 img{width:80%;}
 .otz0{font-family:akrobat-black;color:rgb(255, 90, 90);font-size:25px;}
@@ -174,9 +191,7 @@ body{font-family:Tahoma, Arial, Helvetica, sans-serif;text-decoration:none;color
 .s1gt{font-size:20px;font-family:akrobat-regular;color:rgb(39, 43, 47);}
 .prem img{float:left;width:33%;margin-top:6px;}
 .zgt{font-family:akrobat-regular;font-size:23px;color:rgb(39, 43, 47);}
-.zg{font-family:akrobat-bold;color:rgb(255, 90, 90);font-size:25px;}
 .strelki{color:rgb(140, 140, 140);font-size:16px;}
-.roztx{color:rgb(255, 90, 90);}
 .foncall{font-family:akrobat-regular;color:rgb(39, 43, 47);margin:0px 0px 0px 10px;font-size:30px;}
 .foncall img{vertical-align:middle;width:30px;}
 .ck{text-align:center;}
@@ -215,7 +230,7 @@ h10{ text-align:center;}
 h2{ text-align:center;}
 h1.main, h10.main{font-size:120%;text-align:center;}
 h2.main{font-size:140%;text-align:center;}
-h1, h10, h2.main, h3.main, h3, strong, em{color:dimgray;}
+h1, h10, h2.main, h3.main, h3, ot3 .former-em{color:dimgray;}
 td{padding:0%;}
 td.logo{width:250px;height:143px;}
 td.topfon{height:30px;vertical-align:bottom;}
@@ -311,7 +326,7 @@ a:hover{text-decoration:none;background-color:white;}
 .glf4{margin-left:3%;}
 .tt1{font-size:28px;}
 .tt2{font-size:28px;}
-.ot3 em{font-size:16px;}
+.ot3 .former-em{font-size:16px;}
 .title{font-size:34px;}
 .strek0{margin-top:12%;}
 .strek2 img{width:115%;margin-right:-126%;}
@@ -324,6 +339,7 @@ a:hover{text-decoration:none;background-color:white;}
 .op1{font-size:36px;}
 .h21{font-size:34px;}
 .zgt{font-size:28px;}
+strong {font-size:30px;}
 .bl3t{font-size:28px;}
 .bl2{font-size:27px;}
 .bl3{font-size:27px;}
