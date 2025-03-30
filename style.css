@@ -211,7 +211,6 @@ em {
 .b4{background-image:url(images/digits/d4.png);background-repeat:no-repeat;background-size:96px;}
 .b5{background-image:url(images/digits/d5.png);background-repeat:no-repeat;background-size:96px;}
 .p1 a{color:rgb(140, 140, 140);font-size:25px;font-family:akrobat-bold;}
-.p1 a:hover{text-decoration:underline;}
 .container{background-image:url("images/background/mel.jpg");background-repeat:no-repeat;}
 .clear{clear:both;}
 .fot{margin-top:1%;background-image:url("images/background/mel.jpg");background-repeat:no-repeat;text-align:center;}
